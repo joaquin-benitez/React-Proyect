@@ -16,7 +16,7 @@ const UlNavbar = () => {
                 <a className="nav-link active" href="#">Contacto</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#"><i className="bx bx-cart" />Carrito</a>
+              <button className="btn btn-secondary my-2 my-sm-0" type="submit"><a className="nav-link active" href="#"><i className="bx bx-cart" />Carrito</a></button>
               </li>
               
               
