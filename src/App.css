@@ -1,3 +1,32 @@
 .divGeneral{
     background-color: aqua;
 }
+
+.card{
+    margin: 1.5rem;
+    align-items: center;
+    background-color: transparent;
+    width: 300px;  
+    border: none;
+    --bs-card-spacer-y: 0%;
+    --bs-card-spacer-x: 0;
+    
+}
+.servicio{
+    margin: 1.5rem 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: #F9C5D5;
+    box-sizing: border-box;
+    transition: all 0.5s;  
+    
+}
+.servicio:hover{
+    transform: scale(1.1);
+    
+}
+.img-serv{
+    width: 300px;
+    height: 300px;
+ }
