@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Card = () => {
+const Servicios = () => {
     return (
         <>
             <div className="card">
@@ -30,4 +31,4 @@ const Card = () => {
     );
 }
 
-export default Card;
+export default Servicios;

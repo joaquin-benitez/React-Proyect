@@ -1,22 +1,24 @@
 import React from 'react';
+import CartWidget from './CartWidget';
+import { Link } from 'react-router-dom';
 
 const UlNavbar = () => {
     return (
         <>
            <ul className="navbar-nav me-auto">
               <li className="nav-item">
-                <a className="nav-link active" href="#">Inicio
+              <Link className="nav-link active" to="/">Inicio
                   <span className="visually-hidden">(current)</span>
-                </a>
+              </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">Servicios</a>
+              <Link className="nav-link active" to="/Servicios">Servicios</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">Contacto</a>
+              <Link className="nav-link active" href="#">Contacto</Link>
               </li>
               <li className="nav-item">
-              <button className="btn btn-secondary my-2 my-sm-0" type="submit"><a className="nav-link active" href="#"><i className="bx bx-cart" />Carrito</a></button>
+              <CartWidget/>
               </li>
               
               

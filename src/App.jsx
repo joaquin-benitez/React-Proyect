@@ -1,15 +1,26 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import './styles/App.css';
 import Navbar from './Components/Navbar';
-import './App.css';
-import Contador from './Components/Contador';
-import Card from './Components/Card';
+
+import Main from './Components/Main';
+import ItemListContainer from './Components/ItemListContainer';
 
 const App = () => {
     return (
         <>
-           <Navbar/>      
-           <Contador/>
-           <Card/>
+           <BrowserRouter>
+               <Navbar/>
+               <Routes>
+                   <Route path='/' element={<Main/>}/>
+                   <Route path='/servicios' element={<ItemListContainer greeting="Nuestros Servicios"/>}/>
+                   
+                   
+               
+               
+               
+               </Routes>
+           </BrowserRouter>
         </>
     );
 }
