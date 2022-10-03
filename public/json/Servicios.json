@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "nombre": "Masaje con Piedras",
+        "precio": 1200,
+        "descripcion": "Es una relajante terapia de origen oriental que trabaja no sólo en el plano físico sino también en el mental, ya que ayuda a relajar tensiones musculares y a conseguir un perfecto equilibrio energético.",
+        "img": "piedras.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Masaje de Espalda",
+        "precio": 1500,
+        "descripcion": "El masaje en la espalda aumenta el flujo de la sangre hacia la piel y los músculos. Ayuda a aliviar el dolor y la rigidez.",
+        "img": "espalda.jpg"
+    }
+    
+    
+]

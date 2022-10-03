@@ -3,7 +3,7 @@
 }
 
 .card{
-    margin: 1.5rem;
+    margin: 2rem;
     align-items: center;
     background-color: transparent;
     width: 300px;  
@@ -12,8 +12,9 @@
     --bs-card-spacer-x: 0;
     
 }
-.servicio{
-    margin: 1.5rem 10px;
+.cardServicios{
+    margin: 2rem 10px;
+    margin-left: 2rem;
     width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -22,11 +23,11 @@
     transition: all 0.5s;  
     
 }
-.servicio:hover{
+.cardServicios:hover{
     transform: scale(1.1);
     
 }
-.img-serv{
+.card-img-top{
     width: 300px;
     height: 300px;
  }
