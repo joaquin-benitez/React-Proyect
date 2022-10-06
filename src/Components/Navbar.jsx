@@ -1,4 +1,5 @@
 import React from 'react';
+
 import LogoNavbar from './Navbar/LogoNavbar';
 import UlNavbar from './Navbar/ulNavbar';
 
@@ -9,7 +10,8 @@ const Navbar = () => {
           <div className="container-fluid">
             <LogoNavbar/>
             <div className="collapse navbar-collapse" id="navbarColor02">
-             <UlNavbar/>            
+             <UlNavbar/>  
+                    
             </div>
           </div>
         </nav> 

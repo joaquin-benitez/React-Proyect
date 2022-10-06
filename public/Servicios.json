@@ -2,6 +2,7 @@
     {
         "id": 1,
         "nombre": "Masaje con Piedras",
+        "idCategoria":1,
         "precio": 1200,
         "descripcion": "Es una relajante terapia de origen oriental que trabaja no sólo en el plano físico sino también en el mental, ya que ayuda a relajar tensiones musculares y a conseguir un perfecto equilibrio energético.",
         "img": "piedras.jpg"
@@ -9,10 +10,20 @@
     {
         "id": 2,
         "nombre": "Masaje de Espalda",
+        "idCategoria":1,
         "precio": 1500,
         "descripcion": "El masaje en la espalda aumenta el flujo de la sangre hacia la piel y los músculos. Ayuda a aliviar el dolor y la rigidez.",
         "img": "espalda.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Limpieza Facial",
+        "idCategoria":2,
+        "precio": 1300,
+        "descripcion": "Remover las células muertas de la piel en profundidad, eliminando así cualquier impureza. Estimular la oxigenación de la piel desde el interior de esta. Esto ayudará enormemente a fomentar también el proceso de regeneración celular",
+        "img": "cutis.jpg"
     }
+
     
     
 ]

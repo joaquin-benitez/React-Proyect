@@ -8,9 +8,9 @@ const Servicio = () => {
   const [servicio, setServicio] = useState([]);
   const {id} = useParams()
   useEffect(() => {
-     consultarBDD('./json/servicios.json').then(servicios => {
+     consultarBDD('../Servicios.json').then(servicios => {
       const servicio1 = servicios.find(servicioArray => servicioArray.id == id)
-      console.log(servicios)
+      
       setServicio(servicio1)
      })
  
