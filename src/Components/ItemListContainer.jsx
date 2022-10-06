@@ -10,7 +10,7 @@ const ItemListContainer = ({ greeting }) => {
       consultarBDD('Servicios.json').then(servicios => {
           const cardServicio = servicios.map(servicio => 
               <div className="card cardServicios" key={servicio.id}>
-                  <img src={servicio.img} className="card-img-top" alt={servicio.nombre} />
+                  <img src={"../img/"+ servicio.img} className="card-img-top" alt={servicio.nombre} />
                       <div className="card-body">
                           <h5 className="card-title">{servicio.nombre}</h5>
                           <p className="card-text">${servicio.precio}</p>           

@@ -6,7 +6,7 @@ const DetalleServicios = ({servicio}) => {
          
   <div className="row g-0">
     <div className="col-md-4">
-      <img src={servicio.img} className="img-fluid rounded-start"  />
+      <img src={"../img/"+ servicio.img} className="img-fluid rounded-start"  />
     </div>
     <div className="col-md-8">
       <div className="card-body">
