@@ -8,6 +8,7 @@ import ItemListContainer from './Components/ItemListContainer';
 import Contacto from './Components/Contacto';
 import Categoria from './Components/Categoria';
 import Servicio from './Components/Servicio';
+import Footer from './Components/Footer';
 const App = () => {
     return (
         <>
@@ -16,15 +17,16 @@ const App = () => {
                <Routes>
                    <Route path='/' element={<Main/>}/>
                    <Route path='/servicios' element={<ItemListContainer greeting="Nuestros Servicios"/>}/>
-                   <Route path='/servicio/:id' element={<Servicio/>}/>
-                   <Route path="/categoria/:id" element={<Categoria/>} />
+                   <Route path='/servicio/:nombre' element={<Servicio/>}/>
+                   <Route path="/categoria/:cate" element={<Categoria/>} />
                    
                    <Route path="/contacto" element={<Contacto/>} />
                    <Route path="/carrito" element={<Carrito/>} />
-               
-               
+                   
+      
                
                </Routes>
+               <Footer/>
            </BrowserRouter>
         </>
     );

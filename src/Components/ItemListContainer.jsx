@@ -16,7 +16,7 @@ const ItemListContainer = ({ greeting }) => {
                           <p className="card-text">${servicio.precio}</p>           
                           
                           
-                          <button className='btn btn-dark'><Link className='nav-link' to={`/servicio/${servicio.id}`}>Ver Servicio</Link></button>
+                          <button className='btn btn-dark'><Link className='nav-link' to={`/servicio/${servicio.nombre}`}>Ver Servicio</Link></button>
                   </div>
               </div>)
           

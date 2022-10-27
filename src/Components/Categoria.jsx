@@ -5,10 +5,10 @@ import { consultarBDD } from './Utilidades/FuncionesUtiles';
 const Categoria = () => {
     
     const [servicios, setServicios] = useState([]);
-    const {id} = useParams()
+    const {cate} = useParams()
     useEffect(() => {
         consultarBDD('../Servicios.json').then(servicios => {
-            const serviciosCategoria = servicios.filter(servicio => servicio.idCategoria === parseInt(id) )
+            const serviciosCategoria = servicios.filter(servicio => servicio.categoria === cate )
             console.log(serviciosCategoria)
             const cardServicio = serviciosCategoria.map(servicio => 
                 <div className="card cardServicios" key={servicio.id}>
@@ -18,13 +18,13 @@ const Categoria = () => {
                 
                             <p className="card-text">Precio: ${servicio.precio}</p>
                             
-                            <button className='btn btn-dark'><Link className='nav-link' to={`/servicio/${servicio.id}`}>Ver Servicio</Link></button>
+                            <button className='btn btn-dark'><Link className='nav-link' to={`/servicio/${servicio.nombre}`}>Ver Servicio</Link></button>
                     </div>
                 </div>)
             
             setServicios(cardServicio)
         })
-    }, [id]);
+    }, [cate]);
     return (
         <div className="row">
             {servicios}

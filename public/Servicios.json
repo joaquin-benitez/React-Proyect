@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "categoria":"Masajes",
         "nombre": "Masaje con Piedras",
         "idCategoria":1,
         "precio": 1200,
@@ -9,6 +10,7 @@
     },
     {
         "id": 2,
+        "categoria":"Masajes",
         "nombre": "Masaje de Espalda",
         "idCategoria":1,
         "precio": 1500,
@@ -17,13 +19,31 @@
     },
     {
         "id": 3,
+        "categoria":"Masajes",
+        "nombre": "Masaje con Pindas",
+        "idCategoria":1,
+        "precio": 1400,
+        "descripcion": "El masaje en la espalda aumenta el flujo de la sangre hacia la piel y los músculos. Ayuda a aliviar el dolor y la rigidez.",
+        "img": "pindas.jpg"
+    },
+    {
+        "id": 4,
+        "categoria":"Belleza",
         "nombre": "Limpieza Facial",
         "idCategoria":2,
         "precio": 1300,
         "descripcion": "Remover las células muertas de la piel en profundidad, eliminando así cualquier impureza. Estimular la oxigenación de la piel desde el interior de esta. Esto ayudará enormemente a fomentar también el proceso de regeneración celular",
         "img": "cutis.jpg"
+    },
+    {
+        "id": 5,
+        "categoria":"Belleza",
+        "nombre": "Fangoterapia",
+        "idCategoria":2,
+        "precio": 1800,
+        "descripcion": "es un tratamiento tópico utilizado en la medicina alternativa que consiste principalmente en la aplicación de elementos como la tierra mezclada con agua para buscar beneficios estéticos y curativos.",
+        "img": "fango.jpg"
     }
-
     
     
 ]

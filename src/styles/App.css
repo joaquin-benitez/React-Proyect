@@ -1,5 +1,38 @@
-.divGeneral{
-    background-color: aqua;
+#root{
+    background-color: #FFEDDB;
+}
+
+.navbar{
+    align-items: center;
+}
+
+.main{
+    background-image: url(../../public/Img/Slider-Spa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    height: 700px;
+}
+.text-inicio{
+    align-items: center;
+    padding-top: 15rem; 
+}
+
+.text-inicio h1, h2{
+    font-size: 45px;
+}
+
+
+.text_descripcion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin: 5rem;
+    
+    
 }
 
 .card{
@@ -30,4 +63,87 @@
 .card-img-top{
     width: 300px;
     height: 300px;
+}
+
+.img-det{
+    width: 300px;
+    height: 300px;
+}
+
+
+footer{
+    background-color: #E4AEC5;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 10rem;
+
  }
+
+.text-footer{
+    margin-top: 5rem;
+    
+    
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.icono-contacto{
+    margin: 2rem;
+    color: black;
+    font-size: 20px;
+    transition: all 0.3s;
+    border: solid 1px black !important;
+       
+}
+
+.icono-contacto:hover{
+    color: beige;
+    transform: scale(1.3);
+    border-color: beige !important;
+}
+
+.conteiner-carrito{
+    padding-top: 10rem;
+}
+
+.btn-finalizar{
+    background-color:#E4AEC5 ;
+    color: aliceblue;  
+}
+
+.btn-primary{
+    background-color: #d35a8e;
+    color: aliceblue;
+    border-color: aliceblue;
+    
+}
+
+.btn:hover {
+    color: #d35a8e;
+    background-color: aliceblue;
+    border-color: #d35a8e;
+}
+
+.btn-tostify{
+    background-color: #d35a8e;
+    color: aliceblue;
+    border-color: aliceblue;
+    background: #d35a8e;
+}
+
+.staff{
+    padding-top: 8rem;
+    text-align: center;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}

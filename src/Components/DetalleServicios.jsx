@@ -5,10 +5,10 @@ const DetalleServicios = ({servicio}) => {
         <>
          
   <div className="row g-0">
-    <div className="col-md-4">
-      <img src={"../img/"+ servicio.img} className="img-fluid rounded-start"  />
+    <div className="col-12">
+      <img src={"../img/"+ servicio.img} className="img-det img-fluid rounded-start"  />
     </div>
-    <div className="col-md-8">
+    <div className="col-12">
       <div className="card-body">
         <h5 className="card-title">{servicio.nombre}</h5>
 

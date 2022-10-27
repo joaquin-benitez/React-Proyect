@@ -9,7 +9,7 @@ const Servicio = () => {
   const {id} = useParams()
   useEffect(() => {
      consultarBDD('../Servicios.json').then(servicios => {
-      const servicio1 = servicios.find(servicioArray => servicioArray.id == id)
+      const servicio1 = servicios.find(servicioArray => servicioArray.nombre === id)
       
       setServicio(servicio1)
      })
