@@ -6,10 +6,10 @@ import DetalleServicios from './DetalleServicios';
 
 const Servicio = () => {
   const [servicio, setServicio] = useState([]);
-  const {id} = useParams()
+  const {nombre} = useParams()
   useEffect(() => {
      consultarBDD('../Servicios.json').then(servicios => {
-      const servicio1 = servicios.find(servicioArray => servicioArray.nombre === id)
+      const servicio1 = servicios.find(servicioArray => servicioArray.nombre === nombre)
       
       setServicio(servicio1)
      })

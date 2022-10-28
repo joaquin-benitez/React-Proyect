@@ -13,7 +13,8 @@ const ItemListContainer = ({ greeting }) => {
                   <img src={"../img/"+ servicio.img} className="card-img-top" alt={servicio.nombre} />
                       <div className="card-body">
                           <h5 className="card-title">{servicio.nombre}</h5>
-                          <p className="card-text">${servicio.precio}</p>           
+                           
+                          <p className="card-text">${servicio.precio}</p>          
                           
                           
                           <button className='btn btn-dark'><Link className='nav-link' to={`/servicio/${servicio.nombre}`}>Ver Servicio</Link></button>

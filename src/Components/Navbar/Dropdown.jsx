@@ -4,7 +4,7 @@ const Dropdown = ({lista}) => {
   const [list, setList] = useState([]);
   useEffect(() => {
     const listaDrop = lista.map((categoria, indice) => 
-      <Link className='dropdown-item' to={`/categoria/${categoria}`}>{categoria}</Link>
+      <Link key={indice} className='dropdown-item' to={`/categoria/${categoria}`}>{categoria}</Link>
     )
     setList(listaDrop)
     
