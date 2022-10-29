@@ -32,9 +32,10 @@ const DetalleServicios = ({servicio}) => {
 
         <p className="card-text">${servicio.precio}</p>
         <p className="card-text">{servicio.descripcion}</p>
+        <p className='card-text'>{cantidad} Cantidad</p>
         
         <button className='btn btn-light' onClick={() => cantServicio("+")}>+</button>
-
+        
         <button className='btn btn-dark' onClick={() => cantServicio("-")}>-</button>
 
         <button className='btn btn-dark' onClick={() => agregarServicio(servicio, cantidad) }>Agregar al carrito</button>

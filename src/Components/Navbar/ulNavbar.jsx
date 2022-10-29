@@ -1,7 +1,7 @@
 import React from 'react';
 import CartWidget from './CartWidget';
 import { Link } from 'react-router-dom';
-
+import {memo} from 'react'
 import Dropdown from './Dropdown';
 
 const UlNavbar = () => {
@@ -35,4 +35,4 @@ const UlNavbar = () => {
     );
 }
 
-export default UlNavbar;
+export default memo(UlNavbar);

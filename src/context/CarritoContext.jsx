@@ -13,10 +13,10 @@ const CarritoProvider = (props) => {
         if(indice != -1) {
             aux[indice].cantidad = cant
         } else {
-          const servCarrito = {id: serv.id, cantidad: cant}
+          const servCarrito = {...serv, cantidad: cant}
           aux.push(servCarrito)
         }
-        setCarrito(aux)
+        setCarrito(structuredClone(aux))
         console.log(carrito)
 
     }
@@ -26,7 +26,7 @@ const CarritoProvider = (props) => {
         let indice = aux.findIndex(servicio => servicio.id  == serv.id) 
 
         aux.splice(indice,1)
-        setCarrito(aux)
+        setCarrito(structuredClone(aux))
         console.log(carrito)
     }
 
