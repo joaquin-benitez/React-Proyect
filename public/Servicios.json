@@ -6,7 +6,7 @@
         "idCategoria":1,
         "precio": 1200,
         "descripcion": "Es una relajante terapia de origen oriental que trabaja no sólo en el plano físico sino también en el mental, ya que ayuda a relajar tensiones musculares y a conseguir un perfecto equilibrio energético.",
-        "img": "piedras.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/relaxspa-react.appspot.com/o/img%2Fpiedras.jpg?alt=media&token=d90bd46d-1af4-4816-bfc3-de656c1e2b8c"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "idCategoria":1,
         "precio": 1500,
         "descripcion": "El masaje en la espalda aumenta el flujo de la sangre hacia la piel y los músculos. Ayuda a aliviar el dolor y la rigidez.",
-        "img": "espalda.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/relaxspa-react.appspot.com/o/img%2Fespalda.jpg?alt=media&token=c4b067d1-166f-43f8-9a9c-eee2849ab8e4"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "idCategoria":1,
         "precio": 1400,
         "descripcion": "El masaje en la espalda aumenta el flujo de la sangre hacia la piel y los músculos. Ayuda a aliviar el dolor y la rigidez.",
-        "img": "pindas.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/relaxspa-react.appspot.com/o/img%2Fpindas.jpg?alt=media&token=66662807-26bc-42a7-9758-7bd46f3edff7"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "idCategoria":2,
         "precio": 1300,
         "descripcion": "Remover las células muertas de la piel en profundidad, eliminando así cualquier impureza. Estimular la oxigenación de la piel desde el interior de esta. Esto ayudará enormemente a fomentar también el proceso de regeneración celular",
-        "img": "cutis.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/relaxspa-react.appspot.com/o/img%2Fcutis.jpg?alt=media&token=8cbdfc58-1181-4947-a191-96e31696cebe"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "idCategoria":2,
         "precio": 1800,
         "descripcion": "es un tratamiento tópico utilizado en la medicina alternativa que consiste principalmente en la aplicación de elementos como la tierra mezclada con agua para buscar beneficios estéticos y curativos.",
-        "img": "fango.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/relaxspa-react.appspot.com/o/img%2Ffango.jpg?alt=media&token=cc375b54-8523-46f7-912b-d44abf623196"
     }
     
     

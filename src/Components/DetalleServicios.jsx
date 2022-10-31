@@ -24,7 +24,7 @@ const DetalleServicios = ({servicio}) => {
          
   <div className="row g-0">
     <div className="col-12">
-      <img src={"../img/"+ servicio.img} className="img-det img-fluid rounded-start"  />
+      <img src={servicio.img} className="img-det img-fluid rounded-start"  />
     </div>
     <div className="col-12">
       <div className="card-body">
