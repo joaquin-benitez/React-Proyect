@@ -24,14 +24,14 @@ const DetalleServicios = ({servicio}) => {
          
   <div className="row g-0">
     <div className="col-12">
-      <img src={servicio.img} className="img-det img-fluid rounded-start"  />
+      <img src={servicio[1].img} className="img-det img-fluid rounded-start"  />
     </div>
     <div className="col-12">
       <div className="card-body">
-        <h5 className="card-title">{servicio.nombre}</h5>
+        <h5 className="card-title">{servicio[1].nombre}</h5>
 
-        <p className="card-text">${servicio.precio}</p>
-        <p className="card-text">{servicio.descripcion}</p>
+        <p className="card-text">${servicio[1].precio}</p>
+        <p className="card-text">{servicio[1].descripcion}</p>
         <p className='card-text'>{cantidad} Cantidad</p>
         
         <button className='btn btn-light' onClick={() => cantServicio("+")}>+</button>

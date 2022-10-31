@@ -1,23 +1,24 @@
 import React, {useState, useEffect} from 'react';
 import { consultarBDD } from "./Utilidades/FuncionesUtiles";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import { getServicios } from './Utilidades/firebase';
 
 
 const ItemListContainer = ({ greeting }) => {
 
   const [servicios, setServicios] = useState([]);
   useEffect(() => {
-      consultarBDD('Servicios.json').then(servicios => {
+    getServicios().then(servicios =>  {
           const cardServicio = servicios.map(servicio => 
-              <div className="card cardServicios" key={servicio.id}>
-                  <img src={servicio.img} className="card-img-top" alt={servicio.nombre} />
+              <div className="card cardServicios" key={servicio[0]}>
+                  <img src={servicio[1].img} className="card-img-top" alt={servicio[1].nombre} />
                       <div className="card-body">
-                          <h5 className="card-title">{servicio.nombre}</h5>
+                          <h5 className="card-title">{servicio[1].nombre}</h5>
                            
-                          <p className="card-text">${servicio.precio}</p>          
+                          <p className="card-text">${servicio[1].precio}</p>          
                           
                           
-                          <button className='btn btn-dark'><Link className='nav-link' to={`/servicio/${servicio.nombre}`}>Ver Servicio</Link></button>
+                          <button className='btn btn-dark'><Link className='nav-link' to={`/servicio/${servicio[1].nombre}`}>Ver Servicio</Link></button>
                   </div>
               </div>)
           
